@@ -17,7 +17,19 @@
 
 <body>
 
-   <h1 class="text-center">Nome Progetto</h1>
+   @extends('layouts.app')
+
+   @section('title_page')
+
+        Laravel Comics | Home
+
+   @endsection
+
+   @section('content')
+
+        <h1>Home Page with Comics</h1>
+
+   @endsection
 
 </body>
 
