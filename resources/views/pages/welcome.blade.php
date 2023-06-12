@@ -17,7 +17,7 @@
 
 <body>
 
-   @extends('layouts.app')
+   @extends('layout.app')
 
    @section('title_page')
 
