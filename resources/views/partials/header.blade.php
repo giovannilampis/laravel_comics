@@ -1,8 +1,8 @@
-<nav>
+<nav class="d-flex justify-content-between align-items-center">
     <div class="logo-container">
         <img src="#" alt="logo dc">
     </div>
-    <ul>
+    <ul class="text-uppercase m-0 d-flex justify-content-between align-items-center">
         <li><a href="#">characters</a></li>
         <li><a href="#">comics</a></li>
         <li><a href="#">movies</a></li>
