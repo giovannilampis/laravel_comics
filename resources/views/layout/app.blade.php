@@ -8,6 +8,13 @@
     <title>@yield('title_page')</title>
 </head>
 <body>
+
+    @include('partials.header')
+
+    @yield('')
+
+    @include('partials.footer')
+
     
 </body>
 </html>
