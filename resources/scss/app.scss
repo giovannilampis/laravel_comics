@@ -35,3 +35,68 @@ header {
       }
 }
 
+.top-footer {
+  background-color: rgba(48, 48, 48, 1);
+  background-image: url(/public/img/footer-bg.jpg);
+  background-size: cover;
+}
+.top-footer-container {
+width: 85%;
+margin: 0 auto;
+background-image: url(/public/img/dc-logo-bg.png);
+background-repeat: no-repeat ;
+background-position: center right;
+min-height: 25rem;
+display: flex;
+justify-content: left;
+align-items: flex-start;
+padding: 2rem 0;
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+color: gray;
+}
+
+ul li {
+margin-right: 2rem;
+}
+
+ul li:first-child a {
+color: rgba(2, 130, 249, 1);
+}
+
+a {
+text-decoration: none;
+}
+
+.top-footer-container .d-flex ul {
+padding-left: 0;
+}
+
+.bottom-footer {
+background-color: rgba(48, 48, 48, 1);
+}
+.bottom-footer-container {
+width: 85%;
+height: 6rem;
+color: rgba(255, 255, 255, 1);
+margin: 0 auto;
+}
+
+.bottom-footer-container a {
+color: rgba(255, 255, 255, 1);
+text-decoration: none;
+}
+
+.bottom-footer-container > a {
+border: 2px solid rgba(2, 130, 249, 1);
+padding: 0.7rem 0.9rem;
+}
+
+.icon-bg {
+color: rgba(121, 121, 121, 1);
+}
+
+
