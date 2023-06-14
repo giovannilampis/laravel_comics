@@ -2,7 +2,7 @@
 <header>
     <nav class="d-flex justify-content-between align-items-center">
         <div class="logo-container">
-            <img src="#" alt="logo_dc">
+            <img src="{{ Vite::asset('resources/images/dc-logo.png') }}" alt="logo_dc">
         </div>
         <ul class="text-uppercase m-0 d-flex justify-content-between align-items-center list-unstyled">
             <li><a href="#">characters</a></li>
