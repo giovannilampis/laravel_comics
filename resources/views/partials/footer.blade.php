@@ -64,11 +64,11 @@
             <ul class="d-flex">
 
                 <li class="d-flex align-items-center"><a href="#">follow us</a></li>
-                <li><a href="#"><img src="/public/img/footer-facebook.png" alt="facebook logo link"></a></li>
-                <li><a href="#"><img src="/public/img/footer-twitter.png" alt="twitter logo link"></a></li>
-                <li><a href=""><img src="/public/img/footer-youtube.png" alt="youtube logo link"></a></li>
-                <li><a href="#"><img src="/public/img/footer-pinterest.png" alt="pinterest logo link"></a></li>
-                <li><a href="#"><img src="/public/img/footer-periscope.png" alt="periscope logo link"></a></li>
+                <li><a href="#"><img src=" {{ Vite::asset('resources/images/footer-facebook.png') }} " alt="facebook logo link"></a></li>
+                <li><a href="#"><img src=" {{ Vite::asset('resources/images/footer-twitter.png') }} " alt="twitter logo link"></a></li>
+                <li><a href=""><img src=" {{ Vite::asset('resources/images/footer-youtube.png') }} " alt="youtube logo link"></a></li>
+                <li><a href="#"><img src=" {{ Vite::asset('resources/images/footer-pinterest.png') }} " src="/public/img/.png" alt="pinterest logo link"></a></li>
+                <li><a href="#"><img src=" {{ Vite::asset('resources/images/footer-periscope.png') }} " alt="periscope logo link"></a></li>
 
             </ul>
 
