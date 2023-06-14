@@ -29,6 +29,12 @@
 
         <h1>Home Page with Comics</h1>
 
+        @php
+
+          dd( $comics )
+
+        @endphp
+
    @endsection
 
 </body>
