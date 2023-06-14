@@ -29,11 +29,31 @@
 
         <h1>Home Page with Comics</h1>
 
-        @php
+        {{-- @php
 
           dd( $comics )
 
-        @endphp
+        @endphp --}}
+
+        <div class="container">
+          <div class="row">
+
+               @foreach( $comics as $element )
+
+                    <div class="card">
+                         <img class="card-img-top" src="{{ $element['thumb'] }}" alt="Title">
+                         <div class="card-body">
+                              <h4 class="card-title">{{ $element['title'] }}</h4>
+                              <h5 class="card-title">{{ $element['series'] }}</h5>
+                              <h6 class="card-title">{{ $element['price'] }}</h6>
+                              <p class="card-text">{{ $element['description'] }}</p>
+                         </div>
+                    </div>
+
+               @endforeach 
+
+          </div>
+        </div>
 
    @endsection
 
